@@ -1,0 +1,23 @@
+{
+	"name": "react-dnd-forms-server",
+	"version": "0.0.1",
+	"private": true,
+	"dependencies": {
+		"json-server": "^0.16.3"
+	},
+	"scripts": {
+		"server": "json-server --watch ./db/forms.json --port 5000"
+	},
+	"browserslist": {
+		"production": [
+			">0.2%",
+			"not dead",
+			"not op_mini all"
+		],
+		"development": [
+			"last 1 chrome version",
+			"last 1 firefox version",
+			"last 1 safari version"
+		]
+	}
+}
